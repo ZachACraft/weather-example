@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'weather';
+  src: url('../font/weathericons-regular-webfont.eot');
+  src: url('../font/weathericons-regular-webfont.woff') format('woff'), url('../font/weathericons-regular-webfont.ttf') format('truetype');
+}
+* {
+  box-sizing: border-box;
+}
+.width-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+a {
+  color: #FF370F;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 300ms;
+}
+a:hover {
+  color: #c22000;
+}
+section {
+  padding: 64px 0;
+}
+.layout-weather .weather-wrapper {
+  padding: 64px 0;
+  width: 50%;
+  margin: 0 auto;
+  background-color: #FF370F;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.layout-weather .weather-icon {
+  font-family: 'weather';
+  font-style: normal;
+}
+.layout-weather .icon-0:before {
+  content: '\f056';
+}
+.layout-weather .icon-1:before {
+  content: '\f010';
+}
+.layout-weather .icon-2:before {
+  content: '\f073';
+}
+.layout-weather .icon-3:before,
+.layout-weather .icon-4:before,
+.layout-weather .icon-37:before,
+.layout-weather .icon-38:before,
+.layout-weather .icon-39:before,
+.layout-weather .icon-47:before,
+.layout-weather .icon-45:before,
+.layout-weather .icon-40:before {
+  content: '\f01e';
+}
+.layout-weather .icon-19:before,
+.layout-weather .icon-20:before,
+.layout-weather .icon-21:before,
+.layout-weather .icon-22:before,
+.layout-weather .icon-23:before {
+  content: '\f014';
+}
+.layout-weather .icon-5:before,
+.layout-weather .icon-6:before,
+.layout-weather .icon-7:before,
+.layout-weather .icon-8:before,
+.layout-weather .icon-10:before,
+.layout-weather .icon-18:before,
+.layout-weather .icon-35:before {
+  content: '\f0b5';
+}
+.layout-weather .icon-9:before,
+.layout-weather .icon-11:before,
+.layout-weather .icon-12:before {
+  content: '\f01a';
+}
+.layout-weather .icon-13:before,
+.layout-weather .icon-14:before,
+.layout-weather .icon-16:before,
+.layout-weather .icon-41:before,
+.layout-weather .icon-43:before,
+.layout-weather .icon-46:before,
+.layout-weather .icon-42:before {
+  content: '\f01b';
+}
+.layout-weather .icon-15:before {
+  content: '\f082';
+}
+.layout-weather .icon-17:before {
+  content: '\f015';
+}
+.layout-weather .icon-24:before {
+  content: '\f050';
+}
+.layout-weather .icon-25:before {
+  content: '\f076';
+}
+.layout-weather .icon-26:before,
+.layout-weather .icon-27:before,
+.layout-weather .icon-28:before,
+.layout-weather .icon-29:before,
+.layout-weather .icon-30:before,
+.layout-weather .icon-44:before {
+  content: '\f013';
+}
+.layout-weather .icon-31:before,
+.layout-weather .icon-33:before {
+  content: '\f02e';
+}
+.layout-weather .icon-32:before,
+.layout-weather .icon-34:before {
+  content: '\f00d';
+}
+.layout-weather .icon-36:before {
+  content: '\f072';
+}

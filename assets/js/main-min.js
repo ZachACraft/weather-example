@@ -1,0 +1,1 @@
+$(document).ready(function(){$.simpleWeather({location:"30076",woeid:"",unit:"f",success:function(e){html='<p><i class="weather-icon icon-'+e.code+'"></i> '+e.temp+"&deg;: "+e.currently+"</p>",$(".weather").html(html)},error:function(e){$(".weather").html("<p>"+e+"</p>")}})});
